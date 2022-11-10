@@ -10,7 +10,7 @@
 
 try
 {
-    Console.WriteLine("Укажите, сколько строк будет в массиве (введите натуральное число): ");
+    Console.Write("Укажите, сколько строк будет в массиве (введите натуральное число): ");
     int m = Convert.ToInt32(Console.ReadLine());
     Console.Write("Укажите, сколько столбцов будет в массиве (введите натуральное число): ");
     int n = Convert.ToInt32(Console.ReadLine());
